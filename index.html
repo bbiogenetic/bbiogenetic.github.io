@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<title>Login</title>
+<head>
+<link rel="icon" href="logo.png">
+<link rel="stylesheet" type="text/css" href="login.css">
+</head>
+<body>
+<p class="companyname"><i>Jetty's Bread & Pastries</i></p>
+	<br><br>
+<script>
+function pasok()
+{
+	var namae=document.form.user.value;
+	var pass=document.form.pass.value;
+	var username="admin";
+	var password="admin";
+	if (namae==(username) && pass==(password))
+		{
+			return true;
+		}
+	else{
+		alert("Username or Password in invalid");
+		return false;
+	}
+}
+</script>
+<main>
+
+<div>
+<form name="form" action="homepage.html" onsubmit="return pasok()">
+
+<fieldset>
+	<center>Login</center><br>
+	<center>Username<br> <input type="text" name="username" id="user" placeholder=""required></center>
+	<br>
+	<center>Password<br> <input type="password" name="password" id="pass" placeholder=""required></center>
+	<br>
+	<center><input type="submit" name="login" value="Login"></center>
+	<br>
+</form>	
+</fieldset>
+
+</div>
+</main>
+
+
+
+</body>
+</html>

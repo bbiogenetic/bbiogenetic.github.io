@@ -1,0 +1,40 @@
+	fieldset{
+		color: white;
+		position:solid;
+		margin:auto;
+		width:350px;
+		box-shadow: 1px 1px 20px 1px;
+		border-style: solid;
+		border-style: double;
+		font-size: 25px;
+		font-family: header;
+		border-color: transparent;
+		
+
+	}
+	.companyname{
+		margin-top: 35.5px;
+		margin-left: 182px;
+		font-family: garmond;
+		font-size:100px;
+		font-style: bold;
+		color:white;
+	}
+	body {
+		
+		background-image: url("bread2.jpg");
+	}
+	input[type=text], input[type=password]{
+		border:2px solid;
+		border-color: gray;
+		border-radius: 20px;
+		padding:5px;
+		text-align:center;
+		box-shadow: 0px 0px 16px 0px;
+	}
+	input[type=submit]{
+		border:2px solid;
+		border-color: transparent;
+		border-radius: 8px;
+		padding:5px;
+	}
