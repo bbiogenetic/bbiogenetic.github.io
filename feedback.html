@@ -3,6 +3,12 @@
 <head>
 	<head>
 	<link rel="stylesheet" type="text/css" href="feedback.css">
+	<script type="text/javascript">
+		function emailing(){
+			alert("Feedback sent successfully");
+			return false;
+		}
+	</script>
 	<title>Feedback</title>
 </head>
 <body>
@@ -22,7 +28,7 @@
 
 	<br><br>
 	
-	<form action="feedback.html" name="myform" onsubmit="return emailing();">
+	<form action="feedback.html" name="myform" onsubmit="return emailing()">
 	<fieldset class="feedbackcontent">
 		<legend>Send us a feedback!</legend>
 		<center>Your Name<br> <input type="text" name="fullname" placeholder=""required></center>
